@@ -1,0 +1,23 @@
+/* Reset de estilos padrão do botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    background-color: black;
+}
+
+/* Estilo personalizado */
+.styled-button {
+    background-color: rgb(0, 0, 0); /* Cor de fundo */
+    color: rgb(10, 10, 10); /* Cor do texto */
+    border: 2px solid #4CAF50; /* Cor da borda */
+}
+
+/* Efeito de hover */
+.styled-button:hover {
+    background-color: rgb(0, 47, 255);
+    color: #0400ff;
+}
