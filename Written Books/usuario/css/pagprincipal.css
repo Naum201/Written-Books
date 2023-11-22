@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    align-items: center;
+
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+img {
+    max-width: 500;
+    height: auto;
+    display: block;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .rounded-button {
+    background-color: rgb(237, 163, 255);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition:  0.3s;
+    margin: 20px;
+  }
+  
+  .rounded-button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+  }
