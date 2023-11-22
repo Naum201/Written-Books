@@ -1,41 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="./css/pagprincipal.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Página Inicial</title>
 </head>
 <body>
-    <header>
-        <div class="logo">Webooks</div>
-        <div class="menu-toggle">&#9776;</div>
-          <div class="search-bar">
-            <input type="text" placeholder="Pesquisar...">
-            
-          </div>
-          <button class="rounded-button"><a href="#" class="mymenu" title="Home">Comunidade</a></button>
-            <button class="rounded-button"><a href="#" class="mymenu" title="Sobre">Dar Apoio</a></button>
-        </nav>
-      </header>
 
-      <div class="container">
-        <div class="text">
-            <h2><p>Olá sejam Bem-Vindos, nós somos o Written Books.</p></h1>
-            <h5><p>Sua jornada na leitura começa aqui! Embarque agora e crie já o seu perfil, leia histórias emocionantese explore novos mundos.</p></h4>
-        </div>
-       <div class="image">
-            <img src="./img/OIP__1_-removebg-preview.png" alt="Descrição da imagem">
-        </div><br>
+    <div class="entrada" id="entrada" onmouseover="iniciarTransicao()" onclick="irParaOutraPagina()">
+        <img src="./img/Logo-removebg-preview.png" alt="Logo" class="logo">
+        <p>Written</p>
     </div>
-    
-    <button class="rounded-button"><a href="#" class="mymenu" title="Home">Inscrever-se</a></button>
-    <button class="rounded-button"><a href="#" class="mymenu" title="Sobre">Fazer Login</a></button>   
-</div>
 
-<script src="./js/script.js"></script>
-
+    <script src="./index.js"></script>
 </body>
 </html>
